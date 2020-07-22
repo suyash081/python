@@ -1,0 +1,121 @@
+#Basic Python syntax , #variables #operators
+
+use of Back slash :
+
+print("hello \
+everyone")
+hello everyone
+Tripple codes
+
+print(""" Hi everyone 
+We can write by using triple quotes as well""")
+ HI
+We can write by using triple quotes as well
+string innside the quotes
+
+print ("Hello everyone i'm loving the sessions ")
+Hello everyone i'm loving the sessions 
+Escape sequence of string
+
+print(" hello \n this is next line (by using back slash n) ")
+ hello 
+ this is next line (by using back slash n) 
+formated output
+
+name = 'suyash'
+age ="21"
+marks= 90
+print("the name of the student is", name , "\nAge = " , age , "\nmarsk= " ,marks)
+the name of the student is suyash 
+Age =  21 
+marsk=  90
+Variable = linking of data to a name . single value can be saved by different veriables by same adreess. example below .
+
+Rules : 1.A keyword cannot be used as variable 2.it can contain letters , numbers ,underscore 3.case sensitive 4. variable can not start with no. 5. variable is assigned to data by using python operator .
+
+x= 10
+y=10
+​
+print(id(x), "\nthis adress of X is same as Y\n",id (y))
+140734547862192 
+this adress of X is same as Y
+ 140734547862192
+Types of operator
+
+Arethmatic
+** , * ,/,%, +, -,//
+4**5
+1024
+4*5
+20
+308 /3
+102.66666666666667
+14+5
+​
+19
+230-100
+130
+100//3
+​
+33
+2.Comparison operator . (TRue / false) == , < ,> ,<= ,> = 1=
+
+a=5
+c=2
+a<=c
+​
+False
+a=10
+b=20
+a!=b
+True
+3.Assignment Operrator = , += ,-= , = ,/= ,*=
+
+a=10
+b=20
+a+=b
+print("sum is = ",a)
+sum is =  30
+Bitwise Operator | , &, ~ ,^ , << , >>
+a=100
+bin(a)
+'0b1100100'
+5.Logical Operator and , or not
+
+
+a= 10
+b=6
+a>b and 10 >5
+True
+a= 10
+b=6
+a<b and M >5
+print("it will not give error as first condtion we get as false so no need to check the secons so results s false")
+it will not give erros as first condtion we get as false so no need to check the secons so results s false
+a= 10
+b=6
+a>b or 10 <5
+True
+
+
+
+Operator precdedance . 
+Operators    Meaning
+()  Parentheses
+**  Exponent
++x, -x, ~x  Unary plus, Unary minus, Bitwise NOT
+*, /, //, % Multiplication, Division, Floor division, Modulus
++, -    Addition, Subtraction
+<<, >>  Bitwise shift operators
+&   Bitwise AND
+^   Bitwise XOR
+|   Bitwise OR
+​
+==, !=, >, >=, <, <=, is, is not, in, not in    Comparisons, Identity, Membership operators
+not Logical NOT
+and Logical AND
+or  Logical OR
+10 +20*5 -20
+90
+3-30/6+20
+18.0
